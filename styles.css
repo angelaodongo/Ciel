@@ -6,8 +6,20 @@
 }
 
 body{
-    background: url(yemi-wallington-Iys8Fitaq_Q-unsplash.jpg);
+    background: url(images/yemi-wallington-Iys8Fitaq_Q-unsplash.jpg);
     background-size: cover;
     height: 100vh;
     background-position: center;
 }
+
+header{
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;  /* used to align flex items along the main axis of the container and distributes evenly with space in-between them but no space at the start or end of the container. */
+    align-items: center;   /*centers items along the cross axis*/
+    position: fixed; /* element is positioned relative to the viewport and remains that way even when scrolled */
+    z-index: 99;  /* works with position other than 'static', affects what elements will come first */ 
+    box-shadow: 0 0 10px #000; /* adds shadow effects around an element's frame */
+    background: rgba(0, 0, 0, 0.5);
+}
+
