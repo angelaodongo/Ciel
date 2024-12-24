@@ -80,3 +80,17 @@ header ul li{
     list-style: none;
 }
 
+header ul li a{
+    font-family: 'Quicksand';
+    text-decoration: none;
+    color: moccasin;
+    font-weight: 600;
+    padding: 10px 15px;
+    transition: .3s ease;
+}
+
+header ul li a:hover{
+    border-bottom: 2px solid goldenrod;
+    transform: scale(0.9);
+}
+
