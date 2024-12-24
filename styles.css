@@ -35,13 +35,13 @@ span{
 
 header .logo{
     font-family: 'MonteCarlo';
-    flex: 1;  /* (flex-grow) which enables the flex item to grow if necessary */
+    flex: 1;  /* (flex-shrink) which enables the flex item to shrink if necessary */
     color: moccasin;
     margin-left: 50px; /* adds space between the logo and the end of the navbar */
 }
 
 header .search-box{
-    flex: 1;  /* (flex-grow) which enables the flex item to grow if necessary */
+    flex: 1;  /* (flex-shrink) which enables the flex item to shrink if necessary */
     position: relative;
 }
 
@@ -68,5 +68,15 @@ header .search-box{
     right: 0; /* element is positioned 0 pixels from the right edge */
     transform: scale(0.9); /* scales the element to 90% of it */
     background: #000;
+}
+
+header ul{
+    flex: 2;  /* allows the item to grow if necessary */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header ul li{
+    list-style: none;
 }
 
