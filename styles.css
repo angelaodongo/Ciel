@@ -94,3 +94,7 @@ header ul li a:hover{
     transform: scale(0.9);
 }
 
+header .menu{
+    font-size: 2.5em;
+    display: none;
+}
