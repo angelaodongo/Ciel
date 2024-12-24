@@ -37,5 +37,18 @@ header .logo{
     font-family: 'MonteCarlo';
     flex: 1;
     color: moccasin;
-    margin-left: 50px;
+    margin-left: 50px; /* adds space between the logo and the end of the navbar */
+}
+
+header .search-box{
+    flex: 1;
+    position: relative;
+}
+
+.search-box input{
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
 }
