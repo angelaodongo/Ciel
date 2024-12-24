@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Quicksand';
+    /* font-family: 'Quicksand'; */
 }
 
 body{
@@ -31,4 +31,11 @@ header{
 span{
     color: goldenrod;
     cursor: pointer;
+}
+
+header .logo{
+    font-family: 'MonteCarlo';
+    flex: 1;
+    color: moccasin;
+    margin-left: 50px;
 }
