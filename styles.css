@@ -35,20 +35,38 @@ span{
 
 header .logo{
     font-family: 'MonteCarlo';
-    flex: 1;
+    flex: 1;  /* (flex-grow) which enables the flex item to grow if necessary */
     color: moccasin;
     margin-left: 50px; /* adds space between the logo and the end of the navbar */
 }
 
 header .search-box{
-    flex: 1;
+    flex: 1;  /* (flex-grow) which enables the flex item to grow if necessary */
     position: relative;
 }
 
 .search-box input{
-    width: 100px;
+    width: 100%;
     height: 40px;
     border: none;
-    border-radius: 10px;
+    border-radius: 30px;
     outline: none;
+    background: moccasin;
+    color: #000;
+    font-size: 16px;
+    text-align: center;
 }
+
+.search-box button{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    position: absolute; /* moves the button up and to the right */
+    top: 0;  /* element is positioned 0 pixels from the top */
+    right: 0; /* element is positioned 0 pixels from the right edge */
+    transform: scale(0.9); /* scales the element to 90% of it */
+    background: #000;
+}
+
