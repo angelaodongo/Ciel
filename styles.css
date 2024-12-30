@@ -137,3 +137,12 @@ header .menu{
     }
 }
 
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: yellow;
+    font-family: 'Merienda';
+}
+
