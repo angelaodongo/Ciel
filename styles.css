@@ -144,5 +144,11 @@ header .menu{
     height: 100vh;
     color: yellow;
     font-family: 'Merienda';
+    text-align: center;
+}
+
+.title{
+    font-size: 4em;
+    font-weight: bold;
 }
 
