@@ -140,15 +140,27 @@ header .menu{
 .container{
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
     height: 100vh;
     color: yellow;
-    font-family: 'Merienda';
+    font-family: 'MonteCarlo';
     text-align: center;
 }
 
 .title{
     font-size: 4em;
     font-weight: bold;
+    margin-bottom: 20px;
 }
 
+
+.button{
+    padding: 10px 20px;
+    background-color: yellow;
+    color: #000;
+    text-decoration: none;
+    font-family: 'Quicksand';
+    font-size: 1.2em;
+    border-radius: 10px;
+}
