@@ -183,3 +183,13 @@ header .menu{
 #pg2{
     background-color: #000;
 }
+
+.container1 p{
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Cinzel Decorative';
+    font-size: 3em;
+    color: yellow;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
