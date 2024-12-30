@@ -112,9 +112,14 @@ header .menu{
         width: 50%;
         flex-direction: column;
         align-items: center;
-        transition: right: 0.5s linear;
+        transition: right 0.5s linear;
     }
     header .menu{
         display: block;
+        width: 100px;
+        text-align: center;
+    }
+    #chk1:checked ~ ul{
+        right: 0;
     }
 }
