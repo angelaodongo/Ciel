@@ -193,3 +193,16 @@ header .menu{
     margin-top: 10px;
     margin-bottom: 20px;
 }
+
+.category{
+    display: inline-block;
+    margin: 0 20px;
+    text-align: center;
+}
+
+.category img{
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
