@@ -102,37 +102,37 @@ header .menu{
     display: none;
 }
 
-@media(max-width:1000px){
+@media(max-width:1000px){  /* media queries help create a responsive design that adapts to different screen sizes */
     .search-box button{
         position: absolute;
     }
     header ul{
         position: fixed;
         top: 100px;
-        right: -100%;
+        right: -100%;  /*  initially off the screen to the right, put it as '0' at first then change to -100% so that it slides to the left*/
         background: rgba(0, 0, 0, 0.5);
-        height: calc(100vh - 100px);
-        width: 50%;
-        flex-direction: column;
-        align-items: center;
-        transition: right 0.5s linear;
+        height: calc(100vh - 100px); /* takes the full viewport height minus 100px */
+        width: 50%;  /* takes 50% of the viewport width */
+        flex-direction: column;  /* flex items are aligned verically */
+        align-items: center;  /*  items are center aligned along the cross-axis*/
+        transition: right 0.5s linear;  /*  Smooth transition for the 'right' property over 0.5 seconds*/
     }
     header .menu{
-        display: block;
-        width: 100px;
-        text-align: center;
+        display: block;  /* the menu element will be displayed as a block */
+        width: 100px;  /* fixed width of 100px */
+        text-align: center;  /* centers the text */
     }
     #chk1:checked ~ ul{
-        right: 0;
+        right: 0;  /* when the #chk1 checkbox is checked, the 'ul' element inside 'header' slided into view from the right when the hamburger icon is clicked */
     }
 }
 
 @media(max-width:600px){
     header .logo{
-        font-size: 10px;
-        margin-left: 8px;
+        font-size: 10px; /* the font size of the logo is reduced to 10px */
+        margin-left: 8px; /* margin of 8px on the left side */
     }
     header ul{
-        width: 100%;
+        width: 100%;  /*  the ul element takes up the full width of the viewport*/
     }
 }
