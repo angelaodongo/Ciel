@@ -313,3 +313,20 @@ header .menu{
     text-align: center;
 }
 
+.save{
+    font-family: 'Cinzel Decorative';
+    font-size: 30px;
+    font-weight: 600;
+}
+
+button{
+    padding: 5px 20px;
+    background-color: #000;
+    color: yellow;
+    text-decoration: none;
+    font-family: 'Quicksand';
+    font-size: 1.2em;
+    border: none;
+    border-radius: 10px;
+    transition: .3s ease;
+}
