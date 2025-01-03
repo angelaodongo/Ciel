@@ -339,7 +339,7 @@ button:hover{
 #pg5{
     background-color: black;
     background-size: cover;
-    height: 600px;
+    height: 700px;
 }
 
 .footer-container{
@@ -371,6 +371,7 @@ figcaption{
 
 #footer-text{
     width: 500px;
+    height: 500px;
     padding-top: 30px;
     padding-bottom: 250px;
     margin-top: 50px;
@@ -399,4 +400,23 @@ figcaption{
     text-decoration: none;
     color: yellow;
     cursor: pointer;
+}
+
+.copyright{
+    margin-top: 50px;
+    margin-left: 30px;
+    font-size: 25px;
+    font-family: 'Cinzel';
+    color: yellow;
+    text-align: center;
+}
+
+.copyright ul{
+    margin-top: 20px;
+    
+}
+
+.copyright ul li{
+    list-style-type: none;
+    padding-left: 20px;
 }
