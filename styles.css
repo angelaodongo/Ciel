@@ -267,7 +267,7 @@ header .menu{
     margin: 60px;
     box-shadow: 0 0 10px #000;
     border-radius: 5px;
-    transition: .3s ease;
+    transition: .5s ease;
 }
 
 .ring:hover{
@@ -283,4 +283,21 @@ header .menu{
 .recent-name{
     font-family: 'Cinzel';
     color: yellow;
+}
+
+.cart{
+    padding: 5px 20px;
+    background-color: #000;
+    color: yellow;
+    text-decoration: none;
+    font-family: 'Quicksand';
+    font-size: 1.2em;
+    border: none;
+    border-radius: 10px;
+    transition: .3s ease;
+}
+
+.cart:hover{
+    background-color: yellow;
+    color: #000;
 }
