@@ -267,10 +267,20 @@ header .menu{
     margin: 60px;
     box-shadow: 0 0 10px #000;
     border-radius: 5px;
+    transition: .3s ease;
+}
+
+.ring:hover{
+    transform: scale(0.9);
 }
 
 .ring img{
     height: 250px;
     padding: 10px;
-    border-radius: 50px;
+    border-radius: 20px;
+}
+
+.recent-name{
+    font-family: 'Cinzel';
+    color: yellow;
 }
