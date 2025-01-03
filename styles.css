@@ -239,3 +239,12 @@ header .menu{
     font-family: 'Cinzel Decorative';
     z-index: 3;  /* positioned relative to a z-index of 3 to ensure it appears above both the image and overlay */
 }
+
+#pg3{
+    background-color: #41130f;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    padding-bottom: 70px;
+}
+
