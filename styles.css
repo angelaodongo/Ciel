@@ -245,7 +245,7 @@ header .menu{
     background-size: cover;
     background-position: center;
     height: auto;
-    padding-bottom: 70px;
+    padding-bottom: 20px;
 }
 
 #pg3 .recents p{
@@ -265,9 +265,12 @@ header .menu{
     background-color: #661311;
     padding: 10px;
     margin: 60px;
+    box-shadow: 0 0 10px #000;
+    border-radius: 5px;
 }
 
 .ring img{
     height: 250px;
     padding: 10px;
+    border-radius: 50px;
 }
