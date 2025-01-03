@@ -335,3 +335,57 @@ button:hover{
     background-color: #41130f;
     color: yellow;
 }
+
+#pg5{
+    background-color: black;
+    background-size: cover;
+    height: 500px;
+}
+
+.footer-container{
+    display: flex;
+}
+
+#conclusion{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+#model img{
+    height: 300px;
+}
+
+#nice-ring img{
+    width: 200px;
+    margin-left: -80px;
+}
+
+figcaption{
+    padding-left: 30px;
+    color: aliceblue;
+    font-family: 'Quicksand';
+}
+
+#footer-text{
+    width: 500px;
+    padding-top: 50px;
+    padding-bottom: 250px;
+    margin-top: 50px;
+    margin-left: 70px;
+    background-color: #41130f;
+}
+
+.lorem{
+    margin-left: 30px;
+}
+
+.support{
+    margin-left: 30px;
+}
+
+.support ul{
+
+}
