@@ -248,3 +248,20 @@ header .menu{
     padding-bottom: 70px;
 }
 
+#pg3 .recents p{
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Cinzel Decorative';
+    font-size: 3em;
+    color: yellow;
+    padding-top: 40px;
+    margin-bottom: 20px;
+}
+
+.ring{
+    display: inline-block;
+}
+
+.ring img{
+    height: 300px;
+}
