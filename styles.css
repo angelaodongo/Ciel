@@ -371,7 +371,7 @@ figcaption{
 
 #footer-text{
     width: 500px;
-    padding-top: 50px;
+    padding-top: 30px;
     padding-bottom: 250px;
     margin-top: 50px;
     margin-left: 70px;
@@ -380,12 +380,23 @@ figcaption{
 
 .lorem{
     margin-left: 30px;
+    font-family: 'Quicksand';
+    color: white;
 }
 
 .support{
     margin-left: 30px;
+    margin-top: 20px;
+    padding-bottom: 20px;
 }
 
 .support ul{
+    list-style-type: none;
+    font-family: 'Quicksand';
+}
 
+.support ul li a{
+    text-decoration: none;
+    color: yellow;
+    cursor: pointer;
 }
