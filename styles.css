@@ -330,3 +330,8 @@ button{
     border-radius: 10px;
     transition: .3s ease;
 }
+
+button:hover{
+    background-color: #41130f;
+    color: yellow;
+}
