@@ -260,8 +260,14 @@ header .menu{
 
 .ring{
     display: inline-block;
+    padding: 0 50px 0 40px;
+    text-align: center;
+    background-color: #661311;
+    padding: 10px;
+    margin: 60px;
 }
 
 .ring img{
-    height: 300px;
+    height: 250px;
+    padding: 10px;
 }
