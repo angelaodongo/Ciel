@@ -301,3 +301,10 @@ header .menu{
     background-color: yellow;
     color: #000;
 }
+
+#pg4{
+    background-image: url(images/pearl-earrings.png);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
